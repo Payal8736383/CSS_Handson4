@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Offer {
+    color: black;
+    background: linear-gradient(to right, red, green, yellow);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.list {
+    width: 800px;
+    border: 2px solid red;
+    background-color: skyblue;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-right: 20rem;
+}
+
+.content {
+    padding-left: 22rem;
+    margin: auto;
+}
+
+.container {
+    border: 2px solid brown;
+    background-color: aqua;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.box {
+    width: 350px;
+    border: 2px solid green;
+    background-color: aqua;
+    border-radius: 5x;
+    text-align: center;
+    font-weight: bold;
+}
+
+.jeeAdvance {
+    background-image: linear-gradient(to right, RED, yellow, red);
+    margin-top: 10px;
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+    text-decoration: underline;
+}
+
+.JEEresult {
+    height: 200px;
+    border: 2px solid green;
+    background-image: radial-gradient(blue 0%, skyblue 71%, lightgreen 92%);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.studentjee {
+    width: 200px;
+    border: 2px solid red;
+    color: red;
+    background-color: yellow;
+    margin-right: 90px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 0px 17px 0px;
+    text-decoration: underline;
+}
+
+
+
+.container3 {
+    display: grid;
+    grid-template-columns: 30% 30% 30% auto;
+    grid-template-rows: 50px 70px 150px 40px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+#grid0 {
+    /* grid-column-start:1 ;
+   grid-column-end: 5; */
+    grid-column: 1/5;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding-top: 10px;
+}
+
+
+#grid1 {
+    background-color: greenyellow;
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#grid2 {
+    background-color: rgb(38, 150, 194);
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#grid3 {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#grid4 {
+    background-color: black;
+    color: white;
+    grid-row: 2/4;
+    grid-column: 4/5;
+    font-size: 18px;
+}
+
+#grid5 {
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+    grid-column: 1/4;
+    font-weight: bold;
+}
+
+#grid6 {
+    background-color: skyblue;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    grid-column: 1/5;
+}
